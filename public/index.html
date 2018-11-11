@@ -21,13 +21,17 @@
                     <th>Number</th>
                 </tr>
             </thead>
+            <tbody>
+                <tr ng-repeat="data in contactlist">
+                    <td>{{contactlist}}</td>
+                    <!-- <td>{{contact}}</td>
+                    <td>{{contact}}</td> -->
+                </tr>
+            </tbody>
 
         </table>
+
     </div>
-
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
     <script src="controllers/controller.js"></script>
 </body>
