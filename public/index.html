@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html ng-app="myApp">
 
 <head>
@@ -22,10 +22,10 @@
                 </tr>
             </thead>
             <tbody>
-                <tr ng-repeat="data in contactlist">
-                    <td>{{contactlist}}</td>
-                    <!-- <td>{{contact}}</td>
-                    <td>{{contact}}</td> -->
+                <tr ng-repeat="contact in contactlist">
+                    <td>{{contact.name}}</td>
+                    <td>{{contact.email}}</td>
+                    <td>{{contact.number}}</td>
                 </tr>
             </tbody>
 

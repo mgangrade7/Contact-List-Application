@@ -8,6 +8,6 @@ myApp.controller('AppCtrl', ['$scope', '$http',
                 //success code
                 console.log("Requested Data Received");
                 console.log(response);
-                $scope.contactlist = response;
+                $scope.contactlist = response.data;
             });
     }]);
