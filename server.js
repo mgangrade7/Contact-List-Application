@@ -18,10 +18,6 @@ app.get('/contactlist', function (req, res) {
         console.log(docs);
         res.json(docs);
     });
-
-
-
-
     // person1 = {
     //     name: 'Mayank',
     //     email: 'mayank@gmail.com',
